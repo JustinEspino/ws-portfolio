@@ -359,7 +359,15 @@
             "box-3 box-3 box-3"
             "box-4 box-4 box-4";
         }
-
+        @media (max-width: 50em) {
+        body {
+            margin: 15px;
+        }
+        .content {
+            margin: 0 auto;
+            width: 90%;
+        }
+}
         
         
     }
