@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paynals-tres</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="exte.css">
+    <style>
+        body { background-color: rgb(248, 249, 250); padding: 20px; }
+        .grid-cont { 
+                background-color: rgb(233, 236, 239);
+                padding: 20px;
+                margin-bottom: 30px;
+                border: 1px solid rgb(222, 226, 230);
+        }
+        
+       
+        .boxgreen {
+            background-color: rgb(45, 138, 87);
+            color: white;
+            padding: 20px;
+            margin-bottom: 10px;
+            border: 1px solid white;
+        }
+        
+        .boxpurple {
+            background-color: rgb(148, 0, 211);
+            color: white;
+            padding: 20px;
+            margin-bottom: 10px;
+            border: 1px solid white;/
+        }
+
+        .boxpink{
+            background-color: salmon;
+            color: white;
+            padding: 20px;
+            margin-bottom: 10px;
+            border: 1px solid white;/
+        }
+
+        .boxgreen1 {
+            background-color: teal;
+            color: white;
+            padding: 20px;
+            margin-bottom: 10px;
+            border: 1px solid white;/
+        }
+         .boxgreen2 {
+            background-color: rgb(0, 48, 48);
+            color: white;
+            padding: 20px;
+            margin-bottom: 10px;
+            border: 1px solid white;/
+        }
+        .boxblue {
+            background-color: rgb(31, 145, 183);
+            color: white;
+            padding: 20px;
+            margin-bottom: 10px;
+            border: 1px solid white;/
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <h1>layout 1</h1>
+    <div class="container text-center">
+        <div class="grid-cont">
+        <div class="row g-1">
+            <div class="col-12 col-md-6">
+            <div class="boxgreen">50% desktop 100% mobile</div>
+        </div>
+            <div class="col-12 col-md-6">
+            <div class="boxgreen">50% desktop 100% mobile</div>
+        </div>
+        </div>
+        </div>
+
+        <div class="grid-cont">
+        <div class="row g-1">
+            <div class="col-12 col-md-6">
+            <div class="boxpurple">50% desktop 100% mobile</div>
+        </div>
+            <div class="col-12 col-md-6">
+            <div class="boxpurple">50% desktop 100% mobile</div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <h2>layout 2</h2>
+        <div class="container">
+        <div class="grid-cont">
+                <div class="row g-1"> <div class="col-12 col-md-6">
+                <div class="boxpink">Column 1</div>
+            </div>
+                <div class="col-12 col-md-3">
+                <div class="boxpink">Column 2</div>
+            </div>
+                <div class="col-12 col-md-3">
+                <div class="boxpink">Column 3</div>
+            </div>
+            </div>
+        </div>
+
+        <div class="grid-cont">
+            <div class="row g-1">
+                <div class="col-12">
+                <div class="boxgreen1">Column 1</div>
+            </div>
+                <div class="col-12">
+                <div class="boxgreen1">Column 2</div>
+            </div>
+                <div class="col-12">
+                <div class="boxgreen1">Column 3</div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <h1>layour 3</h1>
+    <div class="container">
+        <div class="grid-cont">
+                <div class="row g-1"> 
+                <div class="col-12 col-md-3">
+                <div class="boxblue">Column 1</div>
+            </div>
+                <div class="col-12 col-md-9">
+                <div class="boxblue">Column 2</div>
+            </div>
+            </div>
+        </div>
+        <div class="grid-cont">
+                <div class="row g-1"> 
+                <div class="col-12 col-md-12">
+                <div class="boxgreen2">Column 1</div>
+            </div>
+                <div class="col-12 col-md-12">
+                <div class="boxgreen2">Column 2</div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <h1>layout 4</h1>
+
+    <div class="container-fluid py-5">
+        <h1 style="color: blueviolet;">Bootstrap Grid Responsive</h1>
+        
+        <div class="row g-4 px-md-5">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <h2 class="number">01</h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum molestias vitae error esse accusantium sapiente est similique corrupti nihil, modi molestiae, ipsa aut fuga? Veritatis aspernatur quam assumenda aut iure.</p>
+                    <button class="buttons" style="border-radius: 10px;" >Read more...</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <h2 class="number">02</h2>
+                    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia odit dignissimos facere reprehenderit voluptatum mollitia nulla enim neque. Quisquam id optio magnam voluptatibus sed. Magnam delectus veritatis repellat adipisci blanditiis!</p>
+                    <button class="buttons" style="border-radius: 10px;" >Read more...</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <h2 class="number">03</h2>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias eius et incidunt omnis eaque. Nesciunt, quia. Tempore, rerum, labore molestiae vitae modi, beatae veritatis dolorum quod ad consequuntur iste officia.</p>
+                    <button class="buttons" style="border-radius: 10px;">Read more...</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
