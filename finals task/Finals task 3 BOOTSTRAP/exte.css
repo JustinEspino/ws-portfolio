@@ -1,0 +1,31 @@
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    height: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+.number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:blue; 
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+
+.buttons {
+    background-color: #00d4ff;
+    border: none;
+    padding: 8px 20px;
+    font-weight: 500;
+}

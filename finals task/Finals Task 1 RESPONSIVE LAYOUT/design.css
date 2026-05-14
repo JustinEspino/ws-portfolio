@@ -1,0 +1,97 @@
+
+body{
+  margin:50px
+}
+.maincont{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.cont{
+  display: flex;
+  gap: 10px;
+  
+}
+
+.head{
+  background: rgb(22, 160, 133);
+  color: white;
+  padding: 15px;
+  min-height: 70px;
+  text-align:left ;
+  
+}
+
+.style{
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  gap: 5px;
+}
+
+.stylebox{ 
+  padding: 10px;
+  border: none;
+  background: rgb(220, 219, 219);
+}
+
+.stylebox:hover{
+    background: rgb(22, 160, 133);
+  color: white;
+}
+
+.content{
+  width: 70%;
+  padding: 15px;
+  
+}
+
+.side{
+  background: rgb(52, 152, 219);
+  color: white;
+  width: 15%;
+  padding: 10px;
+  
+}
+
+.footer{
+  background: rgb(220, 219, 219);
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width:991px){
+.cont{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;  
+}
+.style{
+width: 30%;
+}
+.content{
+flex: 1;
+}
+.side{
+width: 100%;
+}
+
+@media (max-width:767px){
+.cont{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;  
+}
+.style{
+width: 100%;
+}
+.content{
+width: 100%;
+}
+.side{
+width: 100%;
+}
+}
+}
